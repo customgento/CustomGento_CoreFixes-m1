@@ -5,4 +5,13 @@
             <version>1.0.0</version>
         </CustomGento_CoreFixes>
     </modules>
+    <global>
+        <models>
+            <sales>
+                <rewrite>
+                    <quote_address_total_subtotal>CustomGento_CoreFixes_Model_Sales_Quote_Address_Total_Subtotal</quote_address_total_subtotal>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
 </config>
