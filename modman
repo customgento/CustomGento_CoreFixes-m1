@@ -1,2 +1,3 @@
 app/code/community/CustomGento/CoreFixes/ app/code/community/CustomGento/CoreFixes/
+app/code/local/Mage/Core/Model/Session/Abstract/Varien.php app/code/local/Mage/Core/Model/Session/Abstract/Varien.php
 app/etc/modules/CustomGento_CoreFixes.xml app/etc/modules/CustomGento_CoreFixes.xml

@@ -4,6 +4,9 @@
         <CustomGento_CoreFixes>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <Mage_Core/>
+            </depends>
         </CustomGento_CoreFixes>
     </modules>
 </config>
