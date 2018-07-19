@@ -1,5 +1,5 @@
 # Description
-This file is part of CustomGento_CoreFixes for Magento 1.9.3.8. Since `Mage_Core_Model_Session_Abstract_Varien` is an abstract class, we cannot override it, but have to overload it.
+This file is part of CustomGento_CoreFixes for Magento 1.9.3.9. Since `Mage_Core_Model_Session_Abstract_Varien` is an abstract class, we cannot override it, but have to overload it.
 
 This overload fixes a bug, which causes 404 pages on product pages when using a full page cache.
 
