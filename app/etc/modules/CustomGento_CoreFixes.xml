@@ -5,6 +5,7 @@
             <active>true</active>
             <codePool>community</codePool>
             <depends>
+                <Mage_ConfigurableSwatches/>
                 <Mage_Core/>
                 <Mage_Sales/>
             </depends>
