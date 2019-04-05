@@ -6,13 +6,6 @@
         </CustomGento_CoreFixes>
     </modules>
     <global>
-        <helpers>
-            <configurableswatches>
-                <rewrite>
-                    <productimg>CustomGento_CoreFixes_Helper_ConfigurableSwatches_Productimg</productimg>
-                </rewrite>
-            </configurableswatches>
-        </helpers>
         <models>
             <sales>
                 <rewrite>
