@@ -10,6 +10,7 @@
             <sales>
                 <rewrite>
                     <quote_address_total_subtotal>CustomGento_CoreFixes_Model_Sales_Quote_Address_Total_Subtotal</quote_address_total_subtotal>
+                    <service_order>CustomGento_CoreFixes_Model_Sales_Service_Order</service_order>
                 </rewrite>
             </sales>
         </models>
