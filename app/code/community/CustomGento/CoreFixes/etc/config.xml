@@ -6,6 +6,14 @@
         </CustomGento_CoreFixes>
     </modules>
     <global>
+        <blocks>
+            <downloadable>
+                <rewrite>
+                    <adminhtml_catalog_product_edit_tab_downloadable_links>CustomGento_CoreFixes_Block_Adminhtml_Catalog_Product_Edit_Tab_Downloadable_Links</adminhtml_catalog_product_edit_tab_downloadable_links>
+                    <adminhtml_catalog_product_edit_tab_downloadable_samples>CustomGento_CoreFixes_Block_Adminhtml_Catalog_Product_Edit_Tab_Downloadable_Samples</adminhtml_catalog_product_edit_tab_downloadable_samples>
+                </rewrite>
+            </downloadable>
+        </blocks>
         <models>
             <sales>
                 <rewrite>
