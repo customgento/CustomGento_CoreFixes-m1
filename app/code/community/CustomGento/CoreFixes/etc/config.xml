@@ -23,4 +23,13 @@
             </sales>
         </models>
     </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <customgento_corefixes>
+                    <file>customgento_corefixes.xml</file>
+                </customgento_corefixes>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>

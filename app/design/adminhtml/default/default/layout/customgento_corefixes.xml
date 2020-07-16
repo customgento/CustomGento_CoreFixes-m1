@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>js</type>
+                <name>customgento/corefixes/tiny_mce/iframe_fix.js</name>
+                <params/>
+                <if/>
+                <condition>can_load_tiny_mce</condition>
+            </action>
+        </reference>
+    </default>
+</layout>
