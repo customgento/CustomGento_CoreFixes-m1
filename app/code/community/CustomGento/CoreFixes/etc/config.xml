@@ -32,4 +32,13 @@
             </updates>
         </layout>
     </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <customgento_corefixes>
+                    <file>customgento_corefixes.xml</file>
+                </customgento_corefixes>
+            </updates>
+        </layout>
+    </frontend>
 </config>
