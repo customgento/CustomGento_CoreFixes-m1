@@ -11,4 +11,18 @@
             </action>
         </reference>
     </default>
+    <paypal_express_review>
+        <update handle="paypal_express_review_agreements_fix"/>
+    </paypal_express_review>
+    <paypaluk_express_review>
+        <update handle="paypal_express_review_agreements_fix"/>
+    </paypaluk_express_review>
+    <paypal_express_review_agreements_fix>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>customgento/corefixes/js/checkout/review.js</name>
+            </action>
+        </reference>
+    </paypal_express_review_agreements_fix>
 </layout>
