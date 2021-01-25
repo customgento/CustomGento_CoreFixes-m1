@@ -116,7 +116,30 @@ class Mage_Core_Model_Session_Abstract_Varien extends Varien_Object
             $cookieParams['domain'] = $cookie->getDomain();
         }
 
-        call_user_func_array('session_set_cookie_params', $cookieParams);
+        $cookieParams['samesite'] = Mage::getStoreConfig(Mage_Core_Model_Cookie::XML_PATH_COOKIE_SAME_SITE);
+
+        if ($cookieParams['samesite']) {
+            session_set_cookie_params(
+                [
+                    'lifetime' => $cookieParams['lifetime'],
+                    'path' => $cookieParams['path'],
+                    'domain' => $cookieParams['domain'],
+                    'secure' => $cookieParams['secure'],
+                    'httponly' => $cookieParams['httponly'],
+                    'samesite' => $cookieParams['samesite'],
+                ]
+            );
+        } else {
+            session_set_cookie_params(
+                [
+                    'lifetime' => $cookieParams['lifetime'],
+                    'path' => $cookieParams['path'],
+                    'domain' => $cookieParams['domain'],
+                    'secure' => $cookieParams['secure'],
+                    'httponly' => $cookieParams['httponly'],
+                ]
+            );
+        }
 
         if (!empty($sessionName)) {
             $this->setSessionName($sessionName);
