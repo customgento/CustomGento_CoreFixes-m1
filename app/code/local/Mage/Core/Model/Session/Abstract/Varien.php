@@ -103,11 +103,11 @@ class Mage_Core_Model_Session_Abstract_Varien extends Varien_Object
         );
 
         if (!$cookieParams['httponly']) {
-            unset($cookieParams['httponly']);
+            $cookieParams['httponly'] = null;
             if (!$cookieParams['secure']) {
-                unset($cookieParams['secure']);
+                $cookieParams['secure'] = null;
                 if (!$cookieParams['domain']) {
-                    unset($cookieParams['domain']);
+                    $cookieParams['domain'] = null;
                 }
             }
         }
